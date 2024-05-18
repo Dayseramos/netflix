@@ -1,6 +1,7 @@
-# CLone netflix, totalmente responsivo
+# Clone do netflix
 ---
 
+### Site totalmente responsivo! 
 <p align="center" >
      <img width="600" heigth="600" src="https://github.com/Dayseramos/netflix/blob/main/images/tela.png">
 </p>
