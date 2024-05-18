@@ -1,4 +1,4 @@
-# Challenge ONE | Front End - Portfólio
+# CLone netflix, totalmente responsivo
 ---
 
 <p align="center" >
