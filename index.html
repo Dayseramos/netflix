@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <source media="(min-width:900px )" srcset="images/largo.webp">
+            <img src="images/Netflix_2015_logo.svg.webp" alt="">
+        </picture>
+    </header>
+    <main>
+        <h1>Entrar</h1>
+        <form class="form" action="">
+            <label>
+                Email <input type="email" required> </label>
+            <label> Senha <input type="password"required></label>
+            <input type="submit" value="Entrar">
+            <div class="outros">
+                <p>ou</p>
+                <button type="button">Usar um código de acesso</button>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <label class="lembrar"><input type="checkbox" name="lembrar" id="lembrar">Lembre-se de mim </label>
+        </form>
+        <div class="novo">
+            <span>Novo por aqui</span>
+            <a href="#">Assine agora</a>
+        </div>
+        <p class="mensagem">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô <a href="#"> Saiba mais</a></p>
+    </main>
+    <footer>
+        <p>Dúvidas? ligue 0800</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+@media  screen and (min-width:900px) {
+    body{
+        background-color: #fff;
+        background-image: url(../images/netflix-catalogo.webp);
+        background-size:cover ;
+        margin: 0;
+    }
+    header img {
+        width: 300px;
+    }
+    main{
+        width: 400px;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding:24px 40px 100px 40px;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+        border-radius: 6px;
+    }
+    .form input[type="email"],
+    .form input[type="password"] {
+    background-color: #0f0f0f91;
+}
+.outros button {
+    
+    background-color: #414141e2;
+}
+
+.outros button:hover{
+    background-color:#333333e2;
+}
+    
+footer{
+    background-color: #0f0f0f91;
+    height: 100px;
+}
+}
